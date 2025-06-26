@@ -16,7 +16,7 @@ O relatório pode ser enviado por e-mail para os gestores responsáveis semanalm
 
 ### 🧾 Código exemplo (ADVPL)
 ```advpl
-User Function ContratosVencidos()
+User Function ContrVen()
     Local dHoje := dDataBase
     Local dLimite := dHoje - 30
     Local cLinha := ""
